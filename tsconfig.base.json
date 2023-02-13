@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test-integrated-react-app/login": ["libs/login/src/index.ts"],
+      "@test-integrated-react-app/shared-web": ["libs/shared-web/src/index.ts"],
+      "@test-integrated-react-app/user": ["libs/user/src/index.ts"],
+      "@test-integrated-react-app/users": ["libs/users/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
